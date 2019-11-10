@@ -53,7 +53,8 @@ bruceGreen = arrayLiteral[0].shift
 #bruceGreen = arrayLiteral.shift 
 #change last element of first array to bruceGreen
 arrayLiteral[0][3] = bruceGreen
-p arrayLiteral[0]
+arrayLiteral[0][2] = new_value
+p arrayLiteral
 
  
 
