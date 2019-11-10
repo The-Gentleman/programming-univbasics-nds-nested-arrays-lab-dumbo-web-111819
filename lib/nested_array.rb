@@ -53,8 +53,10 @@ bruceGreen = arrayLiteral[0].shift
 patM = arrayLiteral[0].pop
 kateGompert = arrayLiteral[0].pop
 arrayLiteral[0].push(new_value)
+arrayLiteral[0].push(kateGompert)
+arrayLiteral[0].push(bruceGreen)
 p arrayLiteral[0]
-#bruceGreen = arrayLiteral.shift 
+# bruceGreen = arrayLiteral.shift 
 # arrayLiteral[0] returns first array
 
 
