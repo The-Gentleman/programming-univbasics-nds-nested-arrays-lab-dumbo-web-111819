@@ -53,6 +53,6 @@ def matrix_update(matrix, row, column, new_value)
  #change last element of first array to bruceGreen
  bruceGreen = arrayLiteral.shift
  arrayLiteral[4] = bruceGreen
- p arrayLiteral
+ p arrayLiteral[0]
  
 end
