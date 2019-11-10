@@ -49,8 +49,9 @@ def matrix_update(matrix, row, column, new_value)
      ["Bruce Green","Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
      ["Gerhard Schtitt","Hal Incandenza", "Lyle" , "Mario Incandenza", "Michael Pemulis"]
      ]
-arrayLiteral[0] = updatedMatrix
-p updatedMatrix
+bruceGreen = arrayLiteral[0].shift
+patM = arrayLiteral[0].pop
+p arrayLiteral[0]
 #bruceGreen = arrayLiteral.shift 
 # arrayLiteral[0] returns first array
 
