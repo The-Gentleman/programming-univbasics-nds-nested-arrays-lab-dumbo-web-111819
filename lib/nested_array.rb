@@ -50,7 +50,7 @@ def matrix_update(matrix, row, column, new_value)
      ["Gerhard Schtitt","Hal Incandenza", "Lyle" , "Mario Incandenza", "Michael Pemulis"]
      ]
  
- arrayLiteral
+ arrayLiteral = arrayLiteral.delete([1])
  
  #change last element of first array to bruceGreen
  bruceGreen = arrayLiteral.shift()
