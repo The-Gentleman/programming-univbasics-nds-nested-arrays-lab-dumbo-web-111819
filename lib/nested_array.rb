@@ -50,5 +50,5 @@ def matrix_update(matrix, row, column, new_value)
      ["Gerhard Schtitt","Hal Incandenza", "Lyle" , "Mario Incandenza", "Michael Pemulis"]
      ]
  bruceGreen = arrayLiteral.shift()
- p bruceGreen
+ p arrayLiteral.push(bruceGreen)
 end
