@@ -51,10 +51,11 @@ def matrix_update(matrix, row, column, new_value)
      ]
 bruceGreen = arrayLiteral[0].shift
 #bruceGreen = arrayLiteral.shift 
+# arrayLiteral[0] returns first array
 #change last element of first array to bruceGreen
 arrayLiteral[0][3] = bruceGreen
-arrayLiteral[0][2] = new_value
-p arrayLiteral[0]
+
+
 
  
 
