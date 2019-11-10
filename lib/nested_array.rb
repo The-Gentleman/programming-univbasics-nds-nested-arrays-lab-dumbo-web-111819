@@ -51,6 +51,8 @@ def matrix_update(matrix, row, column, new_value)
      ]
 bruceGreen = arrayLiteral[0].shift
 patM = arrayLiteral[0].pop
+kateGompert = arrayLiteral[0].pop
+
 p arrayLiteral[0]
 #bruceGreen = arrayLiteral.shift 
 # arrayLiteral[0] returns first array
