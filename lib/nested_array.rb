@@ -49,5 +49,6 @@ def matrix_update(matrix, row, column, new_value)
      ["Bruce Green","Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."],
      ["Gerhard Schtitt","Hal Incandenza", "Lyle" , "Mario Incandenza", "Michael Pemulis"]
      ]
- p arrayLiteral[0][2] = new_value
+ updatedMatrix = arrayLiteral.shift()
+ p updatedMatrix
 end
